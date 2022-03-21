@@ -29,6 +29,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('article') }}">Articles</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('categories') }}">Categories</a>
+              </li>
             </ul>
           </div>
         </div>

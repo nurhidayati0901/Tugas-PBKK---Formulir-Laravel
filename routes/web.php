@@ -118,6 +118,6 @@ Route::post('/input-buku', [BookController::class, 'create'])->name('proses-book
 // Tugas 2 Blog
 Route::get('/article', [ArticleController::class, 'index'])->name('article');
 Route::get('/article/{article:slug}', [ArticleController::class, 'content']);
-Route::get('/categories', [CategoryController::class, 'find']);
+Route::get('/categories', [CategoryController::class, 'find'])->name('categories');
 Route::get('/categories/{category:slug}', [CategoryController::class, 'findSlug']);
 Route::get('/authors/{author:username}', [AuthorController::class, 'findUsername']);
