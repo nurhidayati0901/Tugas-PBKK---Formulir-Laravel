@@ -1,4 +1,4 @@
-# Tugas-2-PBKK
+# Tugas-PBKK
 Nama: Nur Hidayati
 
 NRP: 05111940000028
@@ -15,5 +15,5 @@ Membuat satu halaman form dan halaman hasil isian dengan ketentuan:
 - Ada validasi.
 - Memberikan flash success jika form berhasil diinputkan.
 
-## Assignment 2 - Form pada Laravel
+## Assignment 2 
 Mengimplementasikan Model, Relationship, Migration, Seeder, dan Factory.
