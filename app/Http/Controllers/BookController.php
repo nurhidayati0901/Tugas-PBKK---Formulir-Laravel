@@ -8,13 +8,13 @@ use App\Models\Book;
 class BookController extends Controller
 {
     public function index() {
-        return view('index', [
+        return view('show-bookstore', [
             "books" => Book::all()
         ]);
     }
 
     public function showInputForm() {
-        return view('input');
+        return view('input-bookstore');
     }
 
     public function create(Request $request) {
